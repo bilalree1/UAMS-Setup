@@ -1,0 +1,151 @@
+## 📘 University Admission Management System (UAMS)
+
+A console-based C++ application designed to manage student admission records with features such as adding, updating, deleting, listing, and analyzing student academic data.
+This project is ideal for beginners learning arrays, functions, and basic data handling in C++.
+
+## 🚀 Features
+## 🔹 User Authentication
+
+ Basic login system (email + password)
+
+## 🔹 Student Management
+
+Add new students
+
+Update existing student records
+
+Delete students using registration number
+
+Search/view a specific student
+
+Display all students
+
+Calculate percentage based on Inter + Matric marks
+
+## 🔹 Core Functionalities
+
+Array-based record storage
+
+Input validation
+
+Clean menu-driven structure
+
+Separate functions for each task
+
+## 🗂️ Program Structure
+
+The project uses fixed-size arrays to store:
+
+names[]
+
+CNICs[]
+
+registrationNos[]
+
+interMarks[]
+
+matricMarks[]
+
+## Each operation is handled using modular functions:
+
+addStudent()
+
+deleteStudent()
+
+updateStudent()
+
+viewSpecificStudent()
+
+viewAllStudents()
+
+viewStudentPercentage()
+
+findStudentIndexByRegNo()
+
+## 📂 File Structure
+/UAMS
+│
+├── main.cpp         # Contains entire program logic
+└── README.md        # Project documentation (this file)
+
+## 🛠️ Installation & Compilation
+## 🔧 Requirements
+
+C++ compiler (g++, MinGW, Clang, or Visual Studio)
+
+Windows (program uses conio.h → getch())
+
+▶️ Compile & Run
+
+Using g++:
+
+g++ main.cpp -o uams
+./uams
+
+## 🧪 How to Use
+1️⃣ Login
+
+The program requires the following credentials:
+
+Email:    bilalcs@gmail.com
+Password: cs123
+
+2️⃣ Choose an Option from the Menu
+1. Add Student
+2. Delete Student
+3. Update Record
+4. View Specific Student
+5. View All Students
+6. View Student Percentage
+7. Exit
+
+3️⃣ Enter Student Information
+
+## The system inputs:
+
+Name
+
+CNIC
+
+Registration Number
+
+Inter Marks (out of 1200)
+
+Matric Marks (out of 1200)
+
+## 📊 Percentage Calculation
+
+The student’s percentage is calculated as:
+
+Total Marks = Inter (1200) + Matric (1200) = 2400
+
+Percentage = (Obtained Marks / 2400) × 100
+
+## 📦 Limitations
+
+Stores up to 100 students (MAX = 100)
+
+No file/database storage (data clears on program exit)
+
+Uses conio.h (Windows-only)
+
+## 🔗 Future Enhancements (Optional Ideas)
+
+Replace arrays with structures & dynamic lists
+
+Add file handling or database storage
+
+Build a GUI version
+
+Add search filters (by name, marks, CNIC)
+
+Improve authentication
+
+## 👨‍💻 Author
+
+Bilal
+
+Beginner C++ Programmer — Learning data structures & real-world applications.
+
+Bilal
+Beginner C++ Programmer — Learning data structures & real-world applications.
